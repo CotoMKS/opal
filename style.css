@@ -25,14 +25,14 @@ nav ul li a {
 
 .cover {
   margin: 0;
-  padding: 80px 20vw;
+  padding: 80px 16vw;
   background: #525AFF;
   color: white;
 }
 
 hr {
   border-style: solid;
-  color: rgba(255,255,255,0.5);
+  color: rgba(255,255,255,0.75);
 }
 
 .container {
@@ -43,10 +43,16 @@ hr {
 
 .content {
   background: #000BFF;
-  padding: 14px 8px 18px 8px;
+  padding: 14px 12px 20px 12px;
   margin-top: 20px;
   color: white;
   border-radius: 12px;
+}
+
+.content .example {
+  width: 75%;
+  height: 75%;
+  margin-left: 50px;
 }
 
 .content .button {

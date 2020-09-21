@@ -1,0 +1,66 @@
+body {
+    font-family: arial;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul {
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+  background: #050138;
+  list-style-type: none;
+}
+
+nav ul li {
+  float: right;
+}
+
+nav ul li a {
+  display: block;
+  text-decoration: none;
+  color: white;
+  padding: 14px 16px;
+}
+
+.cover {
+  margin: 0;
+  padding: 80px 20vw;
+  background: #525AFF;
+  color: white;
+}
+
+hr {
+  border-style: solid;
+  color: rgba(255,255,255,0.5);
+}
+
+.container {
+  justify-content: center;
+  align-items: center;
+  margin: 0 5vw;
+}
+
+.content {
+  background: #000BFF;
+  padding: 14px 8px 18px 8px;
+  margin-top: 20px;
+  color: white;
+  border-radius: 12px;
+}
+
+.content .button {
+  background: aqua;
+  padding: 8px;
+  border-radius: 12px;
+  text-decoration: none;
+  color: white;
+}
+
+footer {
+  background: black;
+  color: white;
+  text-align: center;
+  padding: 12px;
+  margin-top: 50px;
+}
